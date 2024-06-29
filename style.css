@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --fuente-inter:("Inter", sans-serif);
+}
+
+body{
+    background-color: lightgrey;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 2% 0% 0% 5%;
+}
+
+.user_input_container{
+    padding-left: 30%;
+    padding-top: 5%;
+}
+
+.user_input_text{
+    position: relative;
+    background-color: transparent;
+    color: darkblue;
+    font-size: 32px;
+    font-family: var(--fuente-inter);
+    font-weight: 400;
+    padding: 5px;
+    border: 2px solid darkblue;
+    outline: none;
+}
+
+.proyecto{
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+
+}
+
+.proyecto_contenido{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor_botones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mensaje_alerta{
+    padding: 300px 100px 20px 100px;;
+}
+
+.botones{
+    display: flex;
+    gap: 2rem;
+}
+
+.boton_a{
+    background-color: darkblue;
+    color: white;
+    border-radius: 24px;
+    padding: 25px;
+    width: 300px;
+    font-family: var(--fuente-inter);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.boton_b{
+    background-color: #D8DFE8;
+    padding: 25px;
+    border-radius: 24px;
+    width: 300px;
+    font-family: var(--fuente-inter);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.cuadro_de_respuesta{
+    text-align: center;
+    background-color: white;
+    width: 400px;
+    align-items: center;
+    margin: 40px 40px 40px auto;
+    height: 944px;
+    border-radius: 16px;
+}
+
+.imagen_muñeco{
+    width: 100%;
+    padding: 243px 32px 50px 32px;
+}
+
+.contenedor_imagen_texto{
+    display: flex;
+    flex-direction: column;
+}
+
+.segundo_texto{
+    font-family: var(--fuente-inter);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.parrafo_imagen{
+    font-family: var(--fuente-inter);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: auto;
+}
+.footer{
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #071952;
+    font-family: var(--fuente-inter);
+    color: lightblue;
+    font-size: 1.2rem;
+    border-radius: 16px;
+    width: 100%;
+}
+
+@media (max-width: 1200px){
+    .header{
+        padding: 10%;
+    }
+
+    .proyecto{
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    .proyecto_contenido{
+        width: auto;
+    }
+
+    .cuadro_de_respuesta{
+        height: 6rem;
+        width: 30rem;
+    }
+
+    .imagen_muñeco{
+        display: none;
+    }
+
+    .botones{
+        width: auto;
+    }
+}
+

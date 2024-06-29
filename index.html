@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header></header>
+    <img class="header_logo" src="assets/Logo.png" alt="logo">
+        <div class="user_input_container">
+            <input type="text" class="user_input_text" value="Ingrese el texto aqui" name="contenedor_texto">
+        </div>
+        <main class="proyecto">
+            <section class="proyecto_contenido">
+                <div class="mensaje_alerta">
+                    <p class="proyecto_texto"><img src="assets/bi_exclamation-circle-fill.png" alt="imagen de alerta"> Solo letras minusculs y sin acentos</p>
+                </div>
+                <div class="botones">
+                    <button onclick="change_word()" class="boton_a">Encriptar</button>
+                    <button onclick="print_word()" class="boton_b">Desencriptar</button>
+                </div>
+            </section>
+                <div class="cuadro_de_respuesta" id="cuadro_de_respuesta">
+                    <img class="imagen_muñeco" src="assets/Muñeco.png" alt="muñeco" id="muñeco_imagen">
+                    <div class="contenedor_imagen_texto" id="contenedor_imagen_texto">
+                        <h2 class="segundo_texto" id="segundo_texto">Ningun mensaje fue encontrado</h2>
+                        <p class="parrafo_imagen" id="parrafo_imagen">Ingresa el texto que desees encriptar o desencriptar</p>
+                    </div>  
+                </div>
+            
+        </main>
+        <footer class="footer">Desarrollado por Antonio Escoto</footer>
+        <script src="app.js"></script>
+</body>
+</html>
