@@ -21,6 +21,8 @@ header{
 .user_input_container{
     padding-left: 30%;
     padding-top: 5%;
+    width: 65%;
+    height: auto;
 }
 
 .user_input_text{
@@ -33,6 +35,7 @@ header{
     padding: 5px;
     border: 2px solid darkblue;
     outline: none;
+    width: 65%;
 }
 
 .proyecto{
@@ -46,6 +49,7 @@ header{
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: 6rem 6rem;
 }
 
 .contenedor_botones{
@@ -115,6 +119,14 @@ header{
     font-weight: 400;
     margin: auto;
 }
+
+.boton_copiar{
+    background-color: "#D8DFE8";  
+    margin: 37.5rem 2rem 2rem 2rem;
+    border-radius: 1rem;
+    padding:1.5rem;
+    color: "darkblue";
+}
 .footer{
     padding: 1.5rem;
     text-align: center;
@@ -138,6 +150,7 @@ header{
 
     .proyecto_contenido{
         width: auto;
+        margin: auto;
     }
 
     .cuadro_de_respuesta{
@@ -151,6 +164,15 @@ header{
 
     .botones{
         width: auto;
+        margin: auto;
+    }
+
+    .boton_copiar{
+        margin: auto;
+        width: 15rem;
+        padding: 3%;
     }
 }
+
+
 
